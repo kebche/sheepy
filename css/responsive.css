@@ -1,0 +1,213 @@
+
+/*
+	================================================
+	21. Media Quries
+	================================================
+*/
+@media (min-width: 1367px) and (max-width: 2000px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+   }
+        
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+    .home {
+        height: 500px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #navbarNavDropdown {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0px;
+        z-index: 10;
+        padding: 35px 15px 5px;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+        background-color: #fff;
+    }
+  
+    .home {
+        height: 380px;
+    }
+    .home .home-title {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .about-sec, .why-choose-content, .about-content, .contact-details-container{
+        margin-bottom: 30px;
+    }
+    .faq-img-card{
+margin-top: 30px;
+    }
+    .faq-img-heading{
+        position: relative;
+    }
+    .why-us-area {
+        width: 100%;
+    }
+    .hidden-md-down{
+        display: none;
+    }
+    #navbarNavDropdown {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0px;
+        z-index: 10;
+        padding: 35px 15px 5px;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+        background-color: #563f4f;
+    }
+    .dropdown {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #resMenuCloseIcon {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 4px;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 11;
+    }
+    .fa-bars{
+        color: #fff;
+    }
+    .section-title h2 {
+        line-height: 60px;
+    }
+    .big-text {
+        font-size: 50px;
+        }
+    .partners img, .booking-card{
+        margin-bottom: 30px;
+    }
+    .service-three-section .single-service h3 {
+        font-size: 22px;
+    }
+    .login-page .signin .signin-content .inner {
+      
+        padding: 45px;
+
+    }
+   
+}
+
+@media (max-width: 767px) {
+    #navbarNavDropdown {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0px;
+        z-index: 10;
+        padding: 35px 15px 5px;
+        overflow-y: auto;
+        height: 100%;
+        text-align: center;
+        background-color: #563f4f;
+    }
+    .dropdown {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #resMenuCloseIcon {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 4px;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 11;
+    }
+    .home-content{
+        width: 340px;
+    }
+    .home {
+        height: 190px;
+    }
+    .home-wrapper{
+        margin-bottom: 30px !important;
+    }
+    .home h2 {
+        font-weight: 600;
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 10px;
+    }
+    .hidden-md-down{
+        display: none;
+    }
+    .home .home-title {
+        font-size: 18px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 0px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .controls{
+        margin-top: 30px;
+    }
+    .error-page .error-wrap span.error-title {
+        font-size: 80px;
+    }
+    .error-page .error-wrap {
+     
+        padding: 20px;
+    }
+    .home .home-detail {
+     padding: 0 20px;
+    }
+    .about-sec, .why-choose-content, .about-content, .contact-details-container{
+        margin-bottom: 30px;
+    }
+    .faq-img-card{
+margin-top: 30px;
+    }
+    .faq-img-heading{
+        position: relative;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 44px;
+    }
+    .header-rights {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .fa-bars{
+        color: #fff;
+    }
+    .partners{
+        text-align: center;
+    }
+    .partners img, .booking-card{
+        margin-bottom: 30px;
+    }
+    .section-title {
+        width: 100%;
+    }
+    .why-us-area {
+        width: 100%;
+    }
+    .btn-donate{
+        width: 40%;
+    }
+}
